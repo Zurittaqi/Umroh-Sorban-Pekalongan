@@ -1,7 +1,32 @@
-<section style="font-family: 'Poppins', sans-serif; padding: 40px; background: linear-gradient(to bottom, #ffffff, #e6f9f0); color: #2f4f4f;">
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Umroh bersama Sorban Tour Pekalongan: aman, nyaman, terpercaya sejak 2017. Paket lengkap, harga transparan, pembimbing berpengalaman.">
+  <title>Umroh Bersama Sorban Tour Pekalongan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom, #ffffff, #cce8dd);
+      color: #2f4f4f;
+      padding: 0 20px;
+    }
+    header, main, section, footer {
+      max-width: 960px;
+      margin: auto;
+      padding: 40px 20px;
+    }
     h1, h2 {
       color: #207f4c;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     }
     ul li::before {
       content: '✓';
@@ -11,27 +36,33 @@
     blockquote {
       background: #f1fdf6;
       border-left: 5px solid #2e7d32;
-      padding: 10px 15px;
+      padding: 20px;
       font-style: italic;
+      margin: 30px auto;
+      max-width: 700px;
+      font-size: 18px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
     a {
       color: #207f4c;
       text-decoration: none;
+      font-weight: bold;
     }
     a:hover {
       text-decoration: underline;
+      color: #1a5e36;
     }
-    .package-box, .video-box {
-      background: #ffffff;
-      border: 1px solid #cce8dd;
+    .package-box {
+      background: linear-gradient(to right, #f1fdf6, #e6f9f0);
       border-radius: 10px;
-      padding: 20px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-      margin-bottom: 30px;
+      padding: 30px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      margin: 30px 0;
     }
     .highlight-box {
-      background: #e0f5ea;
-      padding: 30px;
+      background: #d7f4e7;
+      padding: 20px;
       border-radius: 10px;
       margin-top: 20px;
     }
@@ -39,15 +70,130 @@
       background: #2e7d32;
       color: white;
       padding: 15px 25px;
-      border-radius: 30px;
+      border-radius: 50px;
       font-size: 18px;
-      text-decoration: none;
       display: inline-block;
-      transition: background 0.3s;
+      transition: background 0.3s ease-in-out, transform 0.2s ease;
     }
     .btn-daftar:hover {
       background: #256c28;
+      transform: scale(1.05);
+    }
+    .video-box iframe {
+      width: 100%;
+      max-width: 350px;
+      aspect-ratio: 9/16;
+      border-radius: 10px;
+      border: 2px solid #ccc;
+    }
+    .contact {
+      text-align: center;
+    }
+    .blue-link {
+      color: blue;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    img {
+      width: 100%;
+      border-radius: 12px;
+      margin: 30px 0;
     }
   </style>
-  ...
-</section>
+</head>
+<body>
+  <header>
+    <h1>Umroh Bersama Sorban Tour Pekalongan</h1>
+    <p style="text-align: center; font-size: 18px;">Aman • Nyaman • Amanah • Berkah</p>
+  </header>
+
+  <main>
+    <section id="hero">
+      <img src="https://imgur.com/apQv4ec.jpg" alt="Jamaah Umroh bersama Sorban Tour Pekalongan di depan Masjidil Haram" loading="lazy">
+    </section>
+
+    <section id="tentang-kami">
+      <h2>Tentang Kami</h2>
+      <p>SORBAN TOUR Pekalongan adalah biro perjalanan Umroh terpercaya sejak 2017. Kami telah membantu ribuan jamaah dengan pelayanan terbaik, legalitas resmi, dan komitmen menjaga amanah spiritual Anda.</p>
+    </section>
+
+    <section id="keunggulan">
+      <h2>Kenapa Pilih Kami?</h2>
+      <ul>
+        <li>Hotel sangat dekat – ke Masjid cukup jalan kaki</li>
+        <li>Aman & terpercaya – terdaftar resmi di Kemenag</li>
+        <li>Harga transparan – tanpa biaya tersembunyi</li>
+        <li>Pembimbing berpengalaman & ramah</li>
+        <li>Fasilitas nyaman dan berkualitas</li>
+        <li>Layanan cepat dan all-in</li>
+        <li>Selalu ada solusi</li>
+        <li>Mempermudah jamaah – tinggal duduk manis, nunggu berangkat</li>
+      </ul>
+    </section>
+
+    <section id="paket">
+      <h2>Paket Umroh Terbaru</h2>
+      <div class="package-box">
+        <strong>🌙 UMROH REGULER – 12 Hari</strong><br>
+        💰 <strong>All in Rp34.000.000</strong><br><br>
+        <strong>Sudah termasuk:</strong>
+        <ul>
+          <li>Vaksin Miningitis</li>
+          <li>Paspor</li>
+          <li>Transport PP Pekalongan-Jakarta</li>
+          <li>Handling koper</li>
+          <li>Makan 3x sehari</li>
+          <li>Hotel/Villa</li>
+          <li>Tiket pesawat</li>
+          <li>Visa Umroh</li>
+          <li>Perlengkapan Umroh</li>
+        </ul>
+        <strong>Belum termasuk:</strong>
+        <ul>
+          <li>Kebutuhan perlengkapan pribadi</li>
+          <li>Kelebihan bagasi</li>
+        </ul>
+        <div class="highlight-box">
+          <strong>✈️ Keberangkatan:</strong> 27 Agustus 2025 – start dari Jakarta<br><br>
+          <strong>🌙 BONUS:</strong><br>
+          - Ziarah Sahabat Abdullah Ibnu Abbas di Thoif<br>
+          - Piagam Umroh<br>
+          - Album Kenangan Umroh<br><br>
+
+          <strong>🌙 AKOMODASI:</strong><br>
+          - Hotel Makkah: Villa Hilton<br>
+          - Hotel Madinah: Al-Ansar Golden Tulip<br>
+          - Pesawat: Lion Airlines
+        </div>
+      </div>
+    </section>
+
+    <section id="testimoni">
+      <h2>Testimoni Jamaah</h2>
+      <blockquote>“Pelayanannya luar biasa, pendampingan selama di tanah suci sangat membantu. Terima kasih SORBAN TOUR!”<br>— Bu Romdanah, Tirto</blockquote>
+      <blockquote>“Alhamdulillah ibadah saya lancar dan berkesan bersama tim yang profesional.”<br>— Pak Slamet, Pakumbulan</blockquote>
+      <blockquote>“Rencana mau umroh lagi dan pinginnya dengan Sorban Tour lagi, karena hotel dipelataran Masjidil Haram, dekat sekali.”<br>— Arif Arfiyanto, Wonopringgo</blockquote>
+    </section>
+
+    <section id="video">
+      <h2><a href="https://www.youtube.com/watch?v=xkylmwbNS0U&t=695s" target="_blank" class="blue-link">Klik di sini untuk lebih dekat mengenal kami</a></h2>
+    </section>
+
+    <section id="kontak" class="contact">
+      <h2>Hubungi Kami</h2>
+      <p>
+        📞 WhatsApp: <a href="https://wa.me/6285879848000" target="_blank">+62 858-7984-8000</a><br>
+        📸 Instagram: <a href="https://instagram.com/sorbantour" target="_blank">@sorbantour</a><br>
+        📍 Alamat: Kantor PC GP Ansor Sekeris Jetak Kidul Wonopringgo Pekalongan<br>
+        📍 Cabang: Tj. Lor. Tanjung Kec. Tirto<br>
+        📍 Unit: Perum Puri Selatan Blok 3 A no 82 Kedungwuni Pekalongan
+      </p>
+      <a href="https://wa.me/6285879848000" target="_blank" class="btn-daftar">Daftar Sekarang</a>
+    </section>
+  </main>
+
+  <footer>
+    <p style="text-align: center; font-size: 14px; color: #777;">&copy; 2025 Sorban Tour Pekalongan. All rights reserved.</p>
+  </footer>
+</body>
+</html>
