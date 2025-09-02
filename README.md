@@ -142,7 +142,7 @@
 
     .logo-container {
       text-align: center;
-      margin: 10px 0;
+      margin: 5px 0;
     }
 
     .logo-container img {
@@ -160,14 +160,13 @@
 </head>
 <body>
 
-  <!-- Logo di Tengah -->
   <div class="logo-container">
     <img src="https://i.imgur.com/CRw1QMd.png" alt="Logo Sorban Tour">
   </div>  
 <section id="kontak" class="contact">
       <p style="text-align: center; font-size: 90%;"><strong>SORBAN TOUR Pekalongan</strong> adalah biro perjalanan Umroh terpercaya sejak 2017. Kami telah membantu ribuan jamaah dengan pelayanan terbaik, legalitas resmi, dan komitmen menjaga amanah spiritual Anda.</p>
     </section>
-      <img src="https://i.imgur.com/skeHOLv.jpeg" alt="Jamaah Umroh bersama Sorban Tour Pekalongan di dalam Masjidil Haram" loading="lazy">
+      <img src="https://imgur.com/u5Fu2U6" alt="Jamaah Umroh bersama Sorban Tour Pekalongan di dalam Masjidil Haram" loading="lazy">
     </section>
      <section id="keunggulan">
       <p style="text-align: left; font-size: 150%;">Kenapa Pilih Kami?</p>
@@ -188,8 +187,8 @@
 	<p style="font-size: 90%;"> 
 	🕋 UMROH REGULER <br> 
 	🗓️ 12 Hari All in<br> <strong>
-	🎁 Rp. 35.000.000,-</strong><br> 
-	🗓️ 25 September 2025 – start dari Jakarta</p></strong><br>
+	🎁 Rp. 30.500.000,-</strong><br> 
+	🗓️ 27 Desember 2025 – start dari Jakarta</p></strong><br>
           <p style="text-align: right;">
 		<a href="https://wa.me/6285879848000" target="_blank" class="btn-daftar">Daftar Sekarang</a>
     </section>
@@ -226,9 +225,9 @@
 
           <p style="text-align: left; font-size: 150%;">AKOMODASI:</p>
 	   <p style="text-align: left; font-size: 80%;">
-          🏠 Hotel Makkah: Villa Hilton (5D)/ Setaraf<br>
-          🏢 Hotel Madinah: Abraj Tabah Tower (5D)/ Setaraf<br>
-          ✈️ Pesawat: SAUDI Airline</p>
+          🏠 Hotel Makkah: Bur Jiwar Quint (5D)/ Setaraf<br>
+          🏢 Hotel Madinah: Amjad Salam (5D)/ Setaraf<br>
+          ✈️ Pesawat: Lion Air </p>
         </div>
  </p>
       <a href="https://wa.me/6285879848000" target="_blank" class="btn-daftar">Daftar Sekarang</a>
